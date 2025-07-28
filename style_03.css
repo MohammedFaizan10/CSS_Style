@@ -1,0 +1,120 @@
+* {
+    font-family:  Helvetica Neue;
+} 
+
+h1,h3 {
+    color: #b92b27;
+}
+
+#login {                          /* Id selector */
+    background-color: white;
+}
+
+#signup {                           
+    background-color: #b92b27;
+    color: white;
+}
+
+.u {                                /* Class selector*/
+    background-color: green;
+    color: aliceblue;
+}
+
+div[id="myid"] {           
+    color: green;
+}
+
+#myid p {
+    background-color: white;
+}
+
+p a {                            /* Descendent selector*/
+    color: blueviolet;
+    background-color: yellow;
+}
+
+.end a{
+    color: skyblue;
+    background-color: antiquewhite;
+}
+
+nav ul li {
+    color: hotpink;
+}
+
+nav ul li a {
+    color: rgb(63, 63, 146);
+    text-decoration: none;
+}
+
+p + h3 {                             /* Sibling combinator selector */
+    text-decoration: underline;
+}
+
+.u + button {          
+    color: aliceblue;
+    background-color: rgb(93, 115, 213);
+}
+
+
+div > input {                                  /* Child combinator */
+    background-color: whitesmoke;
+    
+}
+
+input[type="text"] {                       /* Attribute selector */
+    color: rgb(55, 10, 100);
+}
+
+input[type] {                          /*  For Password */
+    color: rgb(55, 10, 100);
+}
+
+div h1 {                               /* Priority check */
+    color: #b92b27;
+}
+
+#greet {
+    color: yellow;
+}
+
+.myclass {
+    color: teal;
+}
+
+#login:hover {                                     /* Pseudo class-hover */
+    background-color: rgb(155, 155, 238) ;
+    color: whitesmoke;
+}
+
+#signup:hover {                           
+    background-color: rgb(155, 155, 238) ;
+    color: black;
+    
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+p:active {                                    /* Pseudo class-active */
+    font-weight: bold;
+    color: rgb(125, 37, 207);
+}
+
+input[type="radio"]:checked + label {                /* Pseudo class-checked*/
+    color: red;
+}
+
+
+p:nth-of-type(2n){                                     /* Pseudo class-nth of time  */
+    background-color: rgb(139, 220, 193);
+}
+
+
+.example p::first-letter{                   /* PSUEDO ELEMENT */
+    color: red;
+} 
+
+
+
